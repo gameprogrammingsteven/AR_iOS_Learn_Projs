@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD1F0CAE295A91100012655B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1F0CAD295A91100012655B /* AppDelegate.swift */; };
+		BD1F0CB0295A91100012655B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1F0CAF295A91100012655B /* ContentView.swift */; };
+		BD1F0CB2295A91100012655B /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = BD1F0CB1295A91100012655B /* Experience.rcproject */; };
+		BD1F0CB4295A91130012655B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1F0CB3295A91130012655B /* Assets.xcassets */; };
+		BD1F0CB7295A91130012655B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1F0CB6295A91130012655B /* Preview Assets.xcassets */; };
+		BD1F0CC1295A91140012655B /* GestureARKitLearningProjectsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1F0CC0295A91140012655B /* GestureARKitLearningProjectsTests.swift */; };
+		BD1F0CCB295A91140012655B /* GestureARKitLearningProjectsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1F0CCA295A91140012655B /* GestureARKitLearningProjectsUITests.swift */; };
+		BD1F0CCD295A91140012655B /* GestureARKitLearningProjectsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1F0CCC295A91140012655B /* GestureARKitLearningProjectsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD1F0CBD295A91140012655B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD1F0CA2295A91100012655B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD1F0CA9295A91100012655B;
+			remoteInfo = GestureARKitLearningProjects;
+		};
+		BD1F0CC7295A91140012655B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD1F0CA2295A91100012655B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD1F0CA9295A91100012655B;
+			remoteInfo = GestureARKitLearningProjects;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD1F0CAA295A91100012655B /* GestureARKitLearningProjects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureARKitLearningProjects.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1F0CAD295A91100012655B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD1F0CAF295A91100012655B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD1F0CB1295A91100012655B /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		BD1F0CB3295A91130012655B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD1F0CB6295A91130012655B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD1F0CBC295A91140012655B /* GestureARKitLearningProjectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureARKitLearningProjectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1F0CC0295A91140012655B /* GestureARKitLearningProjectsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureARKitLearningProjectsTests.swift; sourceTree = "<group>"; };
+		BD1F0CC6295A91140012655B /* GestureARKitLearningProjectsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureARKitLearningProjectsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1F0CCA295A91140012655B /* GestureARKitLearningProjectsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureARKitLearningProjectsUITests.swift; sourceTree = "<group>"; };
+		BD1F0CCC295A91140012655B /* GestureARKitLearningProjectsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureARKitLearningProjectsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD1F0CA7295A91100012655B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1F0CB9295A91140012655B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1F0CC3295A91140012655B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD1F0CA1295A91100012655B = {
+			isa = PBXGroup;
+			children = (
+				BD1F0CAC295A91100012655B /* GestureARKitLearningProjects */,
+				BD1F0CBF295A91140012655B /* GestureARKitLearningProjectsTests */,
+				BD1F0CC9295A91140012655B /* GestureARKitLearningProjectsUITests */,
+				BD1F0CAB295A91100012655B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD1F0CAB295A91100012655B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD1F0CAA295A91100012655B /* GestureARKitLearningProjects.app */,
+				BD1F0CBC295A91140012655B /* GestureARKitLearningProjectsTests.xctest */,
+				BD1F0CC6295A91140012655B /* GestureARKitLearningProjectsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD1F0CAC295A91100012655B /* GestureARKitLearningProjects */ = {
+			isa = PBXGroup;
+			children = (
+				BD1F0CAD295A91100012655B /* AppDelegate.swift */,
+				BD1F0CAF295A91100012655B /* ContentView.swift */,
+				BD1F0CB1295A91100012655B /* Experience.rcproject */,
+				BD1F0CB3295A91130012655B /* Assets.xcassets */,
+				BD1F0CB5295A91130012655B /* Preview Content */,
+			);
+			path = GestureARKitLearningProjects;
+			sourceTree = "<group>";
+		};
+		BD1F0CB5295A91130012655B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BD1F0CB6295A91130012655B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD1F0CBF295A91140012655B /* GestureARKitLearningProjectsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD1F0CC0295A91140012655B /* GestureARKitLearningProjectsTests.swift */,
+			);
+			path = GestureARKitLearningProjectsTests;
+			sourceTree = "<group>";
+		};
+		BD1F0CC9295A91140012655B /* GestureARKitLearningProjectsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD1F0CCA295A91140012655B /* GestureARKitLearningProjectsUITests.swift */,
+				BD1F0CCC295A91140012655B /* GestureARKitLearningProjectsUITestsLaunchTests.swift */,
+			);
+			path = GestureARKitLearningProjectsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD1F0CA9295A91100012655B /* GestureARKitLearningProjects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1F0CD0295A91140012655B /* Build configuration list for PBXNativeTarget "GestureARKitLearningProjects" */;
+			buildPhases = (
+				BD1F0CA6295A91100012655B /* Sources */,
+				BD1F0CA7295A91100012655B /* Frameworks */,
+				BD1F0CA8295A91100012655B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GestureARKitLearningProjects;
+			productName = GestureARKitLearningProjects;
+			productReference = BD1F0CAA295A91100012655B /* GestureARKitLearningProjects.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD1F0CBB295A91140012655B /* GestureARKitLearningProjectsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1F0CD3295A91140012655B /* Build configuration list for PBXNativeTarget "GestureARKitLearningProjectsTests" */;
+			buildPhases = (
+				BD1F0CB8295A91140012655B /* Sources */,
+				BD1F0CB9295A91140012655B /* Frameworks */,
+				BD1F0CBA295A91140012655B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD1F0CBE295A91140012655B /* PBXTargetDependency */,
+			);
+			name = GestureARKitLearningProjectsTests;
+			productName = GestureARKitLearningProjectsTests;
+			productReference = BD1F0CBC295A91140012655B /* GestureARKitLearningProjectsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD1F0CC5295A91140012655B /* GestureARKitLearningProjectsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1F0CD6295A91140012655B /* Build configuration list for PBXNativeTarget "GestureARKitLearningProjectsUITests" */;
+			buildPhases = (
+				BD1F0CC2295A91140012655B /* Sources */,
+				BD1F0CC3295A91140012655B /* Frameworks */,
+				BD1F0CC4295A91140012655B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD1F0CC8295A91140012655B /* PBXTargetDependency */,
+			);
+			name = GestureARKitLearningProjectsUITests;
+			productName = GestureARKitLearningProjectsUITests;
+			productReference = BD1F0CC6295A91140012655B /* GestureARKitLearningProjectsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD1F0CA2295A91100012655B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					BD1F0CA9295A91100012655B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					BD1F0CBB295A91140012655B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BD1F0CA9295A91100012655B;
+					};
+					BD1F0CC5295A91140012655B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BD1F0CA9295A91100012655B;
+					};
+				};
+			};
+			buildConfigurationList = BD1F0CA5295A91100012655B /* Build configuration list for PBXProject "GestureARKitLearningProjects" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD1F0CA1295A91100012655B;
+			productRefGroup = BD1F0CAB295A91100012655B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD1F0CA9295A91100012655B /* GestureARKitLearningProjects */,
+				BD1F0CBB295A91140012655B /* GestureARKitLearningProjectsTests */,
+				BD1F0CC5295A91140012655B /* GestureARKitLearningProjectsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD1F0CA8295A91100012655B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1F0CB7295A91130012655B /* Preview Assets.xcassets in Resources */,
+				BD1F0CB4295A91130012655B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1F0CBA295A91140012655B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1F0CC4295A91140012655B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD1F0CA6295A91100012655B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1F0CB0295A91100012655B /* ContentView.swift in Sources */,
+				BD1F0CAE295A91100012655B /* AppDelegate.swift in Sources */,
+				BD1F0CB2295A91100012655B /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1F0CB8295A91140012655B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1F0CC1295A91140012655B /* GestureARKitLearningProjectsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1F0CC2295A91140012655B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1F0CCD295A91140012655B /* GestureARKitLearningProjectsUITestsLaunchTests.swift in Sources */,
+				BD1F0CCB295A91140012655B /* GestureARKitLearningProjectsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD1F0CBE295A91140012655B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD1F0CA9295A91100012655B /* GestureARKitLearningProjects */;
+			targetProxy = BD1F0CBD295A91140012655B /* PBXContainerItemProxy */;
+		};
+		BD1F0CC8295A91140012655B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD1F0CA9295A91100012655B /* GestureARKitLearningProjects */;
+			targetProxy = BD1F0CC7295A91140012655B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BD1F0CCE295A91140012655B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD1F0CCF295A91140012655B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD1F0CD1295A91140012655B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GestureARKitLearningProjects/Preview Content\"";
+				DEVELOPMENT_TEAM = 669VG3KZR8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigrobotmicro.GestureARKitLearningProjects;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD1F0CD2295A91140012655B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GestureARKitLearningProjects/Preview Content\"";
+				DEVELOPMENT_TEAM = 669VG3KZR8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigrobotmicro.GestureARKitLearningProjects;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD1F0CD4295A91140012655B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 669VG3KZR8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigrobotmicro.GestureARKitLearningProjectsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GestureARKitLearningProjects.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GestureARKitLearningProjects";
+			};
+			name = Debug;
+		};
+		BD1F0CD5295A91140012655B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 669VG3KZR8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigrobotmicro.GestureARKitLearningProjectsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GestureARKitLearningProjects.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GestureARKitLearningProjects";
+			};
+			name = Release;
+		};
+		BD1F0CD7295A91140012655B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 669VG3KZR8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigrobotmicro.GestureARKitLearningProjectsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GestureARKitLearningProjects;
+			};
+			name = Debug;
+		};
+		BD1F0CD8295A91140012655B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 669VG3KZR8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigrobotmicro.GestureARKitLearningProjectsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GestureARKitLearningProjects;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD1F0CA5295A91100012655B /* Build configuration list for PBXProject "GestureARKitLearningProjects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1F0CCE295A91140012655B /* Debug */,
+				BD1F0CCF295A91140012655B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD1F0CD0295A91140012655B /* Build configuration list for PBXNativeTarget "GestureARKitLearningProjects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1F0CD1295A91140012655B /* Debug */,
+				BD1F0CD2295A91140012655B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD1F0CD3295A91140012655B /* Build configuration list for PBXNativeTarget "GestureARKitLearningProjectsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1F0CD4295A91140012655B /* Debug */,
+				BD1F0CD5295A91140012655B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD1F0CD6295A91140012655B /* Build configuration list for PBXNativeTarget "GestureARKitLearningProjectsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1F0CD7295A91140012655B /* Debug */,
+				BD1F0CD8295A91140012655B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD1F0CA2295A91100012655B /* Project object */;
+}
