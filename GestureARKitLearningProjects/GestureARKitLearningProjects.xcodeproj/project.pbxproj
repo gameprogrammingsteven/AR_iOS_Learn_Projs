@@ -23,8 +23,8 @@
 		BDFB3A54295AAF1E00E3CBB7 /* CosmonautModel.reality in Resources */ = {isa = PBXBuildFile; fileRef = BDFB3A53295AAF1E00E3CBB7 /* CosmonautModel.reality */; };
 		BDFB3A55295AAF1E00E3CBB7 /* CosmonautModel.reality in Resources */ = {isa = PBXBuildFile; fileRef = BDFB3A53295AAF1E00E3CBB7 /* CosmonautModel.reality */; };
 		BDFB3A56295AAF1E00E3CBB7 /* CosmonautModel.reality in Resources */ = {isa = PBXBuildFile; fileRef = BDFB3A53295AAF1E00E3CBB7 /* CosmonautModel.reality */; };
-		BDFB3A58295AAF9700E3CBB7 /* CosmonautSuit_en.reality in Resources */ = {isa = PBXBuildFile; fileRef = BDFB3A57295AAF9700E3CBB7 /* CosmonautSuit_en.reality */; };
-		BDFB3A59295AAF9700E3CBB7 /* CosmonautSuit_en.reality in Resources */ = {isa = PBXBuildFile; fileRef = BDFB3A57295AAF9700E3CBB7 /* CosmonautSuit_en.reality */; };
+		BDFB3A5B295AB02500E3CBB7 /* fenderGuitar.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BDFB3A5A295AB02500E3CBB7 /* fenderGuitar.usdz */; };
+		BDFB3A5C295AB02500E3CBB7 /* fenderGuitar.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BDFB3A5A295AB02500E3CBB7 /* fenderGuitar.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +60,7 @@
 		BDFB3A4E295AA8FD00E3CBB7 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		BDFB3A50295AA9C500E3CBB7 /* Material+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Material+Extensions.swift"; sourceTree = "<group>"; };
 		BDFB3A53295AAF1E00E3CBB7 /* CosmonautModel.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = CosmonautModel.reality; sourceTree = "<group>"; };
-		BDFB3A57295AAF9700E3CBB7 /* CosmonautSuit_en.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = CosmonautSuit_en.reality; sourceTree = "<group>"; };
+		BDFB3A5A295AB02500E3CBB7 /* fenderGuitar.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = fenderGuitar.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,7 @@
 				BD1F0CAD295A91100012655B /* AppDelegate.swift */,
 				BD1F0CAF295A91100012655B /* ContentView.swift */,
 				BD1F0CB1295A91100012655B /* Experience.rcproject */,
-				BDFB3A57295AAF9700E3CBB7 /* CosmonautSuit_en.reality */,
+				BDFB3A5A295AB02500E3CBB7 /* fenderGuitar.usdz */,
 				BDFB3A53295AAF1E00E3CBB7 /* CosmonautModel.reality */,
 				BD1F0CB3295A91130012655B /* Assets.xcassets */,
 				BD1F0CB5295A91130012655B /* Preview Content */,
@@ -254,9 +254,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDFB3A58295AAF9700E3CBB7 /* CosmonautSuit_en.reality in Resources */,
 				BD1F0CB7295A91130012655B /* Preview Assets.xcassets in Resources */,
 				BDFB3A54295AAF1E00E3CBB7 /* CosmonautModel.reality in Resources */,
+				BDFB3A5B295AB02500E3CBB7 /* fenderGuitar.usdz in Resources */,
 				BD1F0CB4295A91130012655B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDFB3A59295AAF9700E3CBB7 /* CosmonautSuit_en.reality in Resources */,
+				BDFB3A5C295AB02500E3CBB7 /* fenderGuitar.usdz in Resources */,
 				BDFB3A55295AAF1E00E3CBB7 /* CosmonautModel.reality in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
