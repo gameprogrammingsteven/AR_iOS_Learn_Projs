@@ -21,7 +21,7 @@ struct ARViewContainer: UIViewRepresentable {
         let arView = ARView(frame: .zero)
         
         context.coordinator.view = arView
-        arView.session.delegate = context.coordinator
+//        arView.session.delegate = context.coordinator
         
         arView.addGestureRecognizer(UITapGestureRecognizer(target: context.coordinator, action: #selector(Coordinator.tapScreen)))
         var horizontalAnchor = AnchorEntity(.plane(.horizontal, classification: .floor, minimumBounds:  SIMD2(x: 0.2, y: 0.2))) //20cm minimum bound
