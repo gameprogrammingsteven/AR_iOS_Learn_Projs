@@ -7,11 +7,29 @@
 
 import SwiftUI
 import RealityKit
+import Combine
 
 struct ContentView : View {
     var body: some View {
-        ARViewContainer().edgesIgnoringSafeArea(.all)
+        ARViewContainerOcclusion().edgesIgnoringSafeArea(.all)
     }
+}
+
+struct ARViewContainerOcclusion: UIViewRepresentable {
+    
+    func makeUIView(context: Context) -> ARView {
+        let arView = ARView(frame: .zero)
+        
+        context.coordinator.arView = arView
+        context.coordinator.setInitial()
+        return arView
+    }
+    
+    func makeCoordinator() -> OccludeCoordinator {
+        OccludeCoordinator()
+    }
+    
+    func updateUIView(_ uiView: ARView, context: Context) {}
 }
 
 struct ARViewContainer: UIViewRepresentable {

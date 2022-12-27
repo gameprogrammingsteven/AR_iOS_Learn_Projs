@@ -25,6 +25,8 @@
 		BDFB3A56295AAF1E00E3CBB7 /* CosmonautModel.reality in Resources */ = {isa = PBXBuildFile; fileRef = BDFB3A53295AAF1E00E3CBB7 /* CosmonautModel.reality */; };
 		BDFB3A5B295AB02500E3CBB7 /* fenderGuitar.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BDFB3A5A295AB02500E3CBB7 /* fenderGuitar.usdz */; };
 		BDFB3A5C295AB02500E3CBB7 /* fenderGuitar.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BDFB3A5A295AB02500E3CBB7 /* fenderGuitar.usdz */; };
+		BDFB3A5E295BAD5000E3CBB7 /* OccludeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFB3A5D295BAD5000E3CBB7 /* OccludeCoordinator.swift */; };
+		BDFB3A5F295BAD5000E3CBB7 /* OccludeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFB3A5D295BAD5000E3CBB7 /* OccludeCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,7 @@
 		BDFB3A50295AA9C500E3CBB7 /* Material+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Material+Extensions.swift"; sourceTree = "<group>"; };
 		BDFB3A53295AAF1E00E3CBB7 /* CosmonautModel.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = CosmonautModel.reality; sourceTree = "<group>"; };
 		BDFB3A5A295AB02500E3CBB7 /* fenderGuitar.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = fenderGuitar.usdz; sourceTree = "<group>"; };
+		BDFB3A5D295BAD5000E3CBB7 /* OccludeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OccludeCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,7 @@
 				BD1F0CD9295A91DF0012655B /* Coordinator.swift */,
 				BDFB3A4E295AA8FD00E3CBB7 /* UIColor+Extensions.swift */,
 				BDFB3A50295AA9C500E3CBB7 /* Material+Extensions.swift */,
+				BDFB3A5D295BAD5000E3CBB7 /* OccludeCoordinator.swift */,
 			);
 			path = GestureARKitLearningProjects;
 			sourceTree = "<group>";
@@ -287,6 +291,7 @@
 			files = (
 				BDFB3A51295AA9C500E3CBB7 /* Material+Extensions.swift in Sources */,
 				BD1F0CDA295A91DF0012655B /* Coordinator.swift in Sources */,
+				BDFB3A5E295BAD5000E3CBB7 /* OccludeCoordinator.swift in Sources */,
 				BDFB3A4F295AA8FD00E3CBB7 /* UIColor+Extensions.swift in Sources */,
 				BD1F0CB0295A91100012655B /* ContentView.swift in Sources */,
 				BD1F0CAE295A91100012655B /* AppDelegate.swift in Sources */,
@@ -300,6 +305,7 @@
 			files = (
 				BDFB3A52295AA9C500E3CBB7 /* Material+Extensions.swift in Sources */,
 				BD1F0CDB295A91DF0012655B /* Coordinator.swift in Sources */,
+				BDFB3A5F295BAD5000E3CBB7 /* OccludeCoordinator.swift in Sources */,
 				BD1F0CC1295A91140012655B /* GestureARKitLearningProjectsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
