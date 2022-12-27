@@ -27,6 +27,8 @@
 		BDFB3A5C295AB02500E3CBB7 /* fenderGuitar.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BDFB3A5A295AB02500E3CBB7 /* fenderGuitar.usdz */; };
 		BDFB3A5E295BAD5000E3CBB7 /* OccludeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFB3A5D295BAD5000E3CBB7 /* OccludeCoordinator.swift */; };
 		BDFB3A5F295BAD5000E3CBB7 /* OccludeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFB3A5D295BAD5000E3CBB7 /* OccludeCoordinator.swift */; };
+		BDFB3A61295BB0CE00E3CBB7 /* ARViewContainerOcclusion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFB3A60295BB0CE00E3CBB7 /* ARViewContainerOcclusion.swift */; };
+		BDFB3A62295BB0CE00E3CBB7 /* ARViewContainerOcclusion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFB3A60295BB0CE00E3CBB7 /* ARViewContainerOcclusion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,7 @@
 		BDFB3A53295AAF1E00E3CBB7 /* CosmonautModel.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = CosmonautModel.reality; sourceTree = "<group>"; };
 		BDFB3A5A295AB02500E3CBB7 /* fenderGuitar.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = fenderGuitar.usdz; sourceTree = "<group>"; };
 		BDFB3A5D295BAD5000E3CBB7 /* OccludeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OccludeCoordinator.swift; sourceTree = "<group>"; };
+		BDFB3A60295BB0CE00E3CBB7 /* ARViewContainerOcclusion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainerOcclusion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,17 +117,15 @@
 		BD1F0CAC295A91100012655B /* GestureARKitLearningProjects */ = {
 			isa = PBXGroup;
 			children = (
+				BDFB3A65295BB19000E3CBB7 /* Coordinator */,
+				BDFB3A64295BB15900E3CBB7 /* Resources */,
+				BDFB3A63295BB13A00E3CBB7 /* ARScreens */,
 				BD1F0CAD295A91100012655B /* AppDelegate.swift */,
 				BD1F0CAF295A91100012655B /* ContentView.swift */,
-				BD1F0CB1295A91100012655B /* Experience.rcproject */,
-				BDFB3A5A295AB02500E3CBB7 /* fenderGuitar.usdz */,
-				BDFB3A53295AAF1E00E3CBB7 /* CosmonautModel.reality */,
 				BD1F0CB3295A91130012655B /* Assets.xcassets */,
 				BD1F0CB5295A91130012655B /* Preview Content */,
-				BD1F0CD9295A91DF0012655B /* Coordinator.swift */,
 				BDFB3A4E295AA8FD00E3CBB7 /* UIColor+Extensions.swift */,
 				BDFB3A50295AA9C500E3CBB7 /* Material+Extensions.swift */,
-				BDFB3A5D295BAD5000E3CBB7 /* OccludeCoordinator.swift */,
 			);
 			path = GestureARKitLearningProjects;
 			sourceTree = "<group>";
@@ -152,6 +153,33 @@
 				BD1F0CCC295A91140012655B /* GestureARKitLearningProjectsUITestsLaunchTests.swift */,
 			);
 			path = GestureARKitLearningProjectsUITests;
+			sourceTree = "<group>";
+		};
+		BDFB3A63295BB13A00E3CBB7 /* ARScreens */ = {
+			isa = PBXGroup;
+			children = (
+				BDFB3A60295BB0CE00E3CBB7 /* ARViewContainerOcclusion.swift */,
+			);
+			path = ARScreens;
+			sourceTree = "<group>";
+		};
+		BDFB3A64295BB15900E3CBB7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD1F0CB1295A91100012655B /* Experience.rcproject */,
+				BDFB3A5A295AB02500E3CBB7 /* fenderGuitar.usdz */,
+				BDFB3A53295AAF1E00E3CBB7 /* CosmonautModel.reality */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BDFB3A65295BB19000E3CBB7 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				BD1F0CD9295A91DF0012655B /* Coordinator.swift */,
+				BDFB3A5D295BAD5000E3CBB7 /* OccludeCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDFB3A51295AA9C500E3CBB7 /* Material+Extensions.swift in Sources */,
+				BDFB3A61295BB0CE00E3CBB7 /* ARViewContainerOcclusion.swift in Sources */,
 				BD1F0CDA295A91DF0012655B /* Coordinator.swift in Sources */,
 				BDFB3A5E295BAD5000E3CBB7 /* OccludeCoordinator.swift in Sources */,
 				BDFB3A4F295AA8FD00E3CBB7 /* UIColor+Extensions.swift in Sources */,
@@ -303,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDFB3A62295BB0CE00E3CBB7 /* ARViewContainerOcclusion.swift in Sources */,
 				BDFB3A52295AA9C500E3CBB7 /* Material+Extensions.swift in Sources */,
 				BD1F0CDB295A91DF0012655B /* Coordinator.swift in Sources */,
 				BDFB3A5F295BAD5000E3CBB7 /* OccludeCoordinator.swift in Sources */,

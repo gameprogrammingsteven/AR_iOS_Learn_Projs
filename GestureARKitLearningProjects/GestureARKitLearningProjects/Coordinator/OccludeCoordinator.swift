@@ -8,6 +8,7 @@
 import Foundation
 import RealityKit
 import ARKit
+import AVFoundation
 import Combine
 
 class OccludeCoordinator: NSObject { //Removed ARKit stuff in favor of Reality
@@ -15,7 +16,7 @@ class OccludeCoordinator: NSObject { //Removed ARKit stuff in favor of Reality
     var cancellable: AnyCancellable?
     
     func setInitial() {
-        
+            //same code as anything, just use a different material. Skipping lecture.
     }
 
 }
