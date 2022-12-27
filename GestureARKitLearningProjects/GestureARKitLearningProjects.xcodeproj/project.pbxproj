@@ -17,6 +17,9 @@
 		BD1F0CCD295A91140012655B /* GestureARKitLearningProjectsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1F0CCC295A91140012655B /* GestureARKitLearningProjectsUITestsLaunchTests.swift */; };
 		BD1F0CDA295A91DF0012655B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1F0CD9295A91DF0012655B /* Coordinator.swift */; };
 		BD1F0CDB295A91DF0012655B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1F0CD9295A91DF0012655B /* Coordinator.swift */; };
+		BDFB3A4F295AA8FD00E3CBB7 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFB3A4E295AA8FD00E3CBB7 /* UIColor+Extensions.swift */; };
+		BDFB3A51295AA9C500E3CBB7 /* Material+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFB3A50295AA9C500E3CBB7 /* Material+Extensions.swift */; };
+		BDFB3A52295AA9C500E3CBB7 /* Material+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFB3A50295AA9C500E3CBB7 /* Material+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,8 @@
 		BD1F0CCA295A91140012655B /* GestureARKitLearningProjectsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureARKitLearningProjectsUITests.swift; sourceTree = "<group>"; };
 		BD1F0CCC295A91140012655B /* GestureARKitLearningProjectsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureARKitLearningProjectsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BD1F0CD9295A91DF0012655B /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		BDFB3A4E295AA8FD00E3CBB7 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		BDFB3A50295AA9C500E3CBB7 /* Material+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Material+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,8 @@
 				BD1F0CB3295A91130012655B /* Assets.xcassets */,
 				BD1F0CB5295A91130012655B /* Preview Content */,
 				BD1F0CD9295A91DF0012655B /* Coordinator.swift */,
+				BDFB3A4E295AA8FD00E3CBB7 /* UIColor+Extensions.swift */,
+				BDFB3A50295AA9C500E3CBB7 /* Material+Extensions.swift */,
 			);
 			path = GestureARKitLearningProjects;
 			sourceTree = "<group>";
@@ -264,7 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDFB3A51295AA9C500E3CBB7 /* Material+Extensions.swift in Sources */,
 				BD1F0CDA295A91DF0012655B /* Coordinator.swift in Sources */,
+				BDFB3A4F295AA8FD00E3CBB7 /* UIColor+Extensions.swift in Sources */,
 				BD1F0CB0295A91100012655B /* ContentView.swift in Sources */,
 				BD1F0CAE295A91100012655B /* AppDelegate.swift in Sources */,
 				BD1F0CB2295A91100012655B /* Experience.rcproject in Sources */,
@@ -275,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDFB3A52295AA9C500E3CBB7 /* Material+Extensions.swift in Sources */,
 				BD1F0CDB295A91DF0012655B /* Coordinator.swift in Sources */,
 				BD1F0CC1295A91140012655B /* GestureARKitLearningProjectsTests.swift in Sources */,
 			);
