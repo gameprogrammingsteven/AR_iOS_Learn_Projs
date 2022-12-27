@@ -32,15 +32,23 @@ class Coordinator: NSObject { //Removed ARKit stuff in favor of Reality
             
             let anchorEntity = AnchorEntity(world: firstCollision.worldTransform)
             
-            
+            //Async multiple
             cancellable = ModelEntity.loadAsync(named: "fenderGuitar")
+                .append(ModelEntity.loadAsync(named:"fenderGuitar2")) // other model
+                .collect() //Reactive Combine
                 .sink { loadComplete in
                     if case let .failure(e) = loadComplete {
                         print("Unable to load Guitar")
                         self.cancellable?.cancel()
                     }
-                } receiveValue: { entity in
-                    anchorEntity.addChild(entity)
+                } receiveValue: { entities in
+                    var xPos: Float = 0.0
+                    
+                    entities.forEach { entity in
+                        entity.position = simd_make_float3(xPos,0, 1) //1 meter away, x to r
+                        anchorEntity.addChild(entity)
+                        //change xPos
+                    }
                 }
 
             //Slower code, erase/comment next line
